@@ -9,7 +9,7 @@ const {buildTemplate} = require('./utils');
 const {gather} = require('./parser');
 
 
-const bot = new Telegraf(process.env.BOT_TOKEN || '851271459:AAFPXVM21Kagx7n94H-O7IIY0GQUI02gHqw');
+const bot = new Telegraf('851271459:AAFPXVM21Kagx7n94H-O7IIY0GQUI02gHqw');
 
 bot.use(Telegraf.log());
 

@@ -2,8 +2,6 @@ const axios = require('axios');
 
 const {dateDiffInDays} = require('./utils');
 
-// console.log('XXX', dateDiffInDays);
-
 const url = `https://pk.api.onliner.by/search/apartments`;
 
 const createParams = (page=1) => {
